@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SimpsonsEpisodeGenerator.bundle.scp.css",
-      "PackagePath": "staticwebassets\\SimpsonsEpisodeGenerator.u2z7b4bseg.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

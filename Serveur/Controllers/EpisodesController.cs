@@ -1,16 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SimpsonsEpisodeGenerator.Data;
 using SimpsonsEpisodeGenerator.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace SimpsonsEpisodeGenerator.Controllers
 {
-    public class EpisodesController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class EpisodesController : ControllerBase
     {
         private readonly SimpsonsEpisodeGeneratorContext _context;
 
@@ -19,139 +18,38 @@ namespace SimpsonsEpisodeGenerator.Controllers
             _context = context;
         }
 
-        // GET: Episodes
-        public async Task<IActionResult> Index()
+        // GET: api/episodes
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Episode>>> GetEpisodes()
         {
-            return View(await _context.Episodes.ToListAsync());
+            return await _context.Episodes.ToListAsync();
         }
 
-        // GET: Episodes/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var episode = await _context.Episodes
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (episode == null)
-            {
-                return NotFound();
-            }
-
-            return View(episode);
-        }
-
-        // GET: Episodes/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: Episodes/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,SeasonNumber,EpisodeNumber,Title,Description")] Episode episode)
-        {
-            if (ModelState.IsValid)
-            {
-                _context.Add(episode);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(episode);
-        }
-
-        // GET: Episodes/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var episode = await _context.Episodes.FindAsync(id);
-            if (episode == null)
-            {
-                return NotFound();
-            }
-            return View(episode);
-        }
-
-        // POST: Episodes/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,SeasonNumber,EpisodeNumber,Title,Description")] Episode episode)
-        {
-            if (id != episode.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(episode);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!EpisodeExists(episode.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(episode);
-        }
-
-        // GET: Episodes/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var episode = await _context.Episodes
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (episode == null)
-            {
-                return NotFound();
-            }
-
-            return View(episode);
-        }
-
-        // POST: Episodes/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        // GET: api/episodes/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Episode>> GetEpisode(int id)
         {
             var episode = await _context.Episodes.FindAsync(id);
-            if (episode != null)
+
+            if (episode == null)
             {
-                _context.Episodes.Remove(episode);
+                return NotFound();
             }
 
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return episode;
         }
 
-        private bool EpisodeExists(int id)
+        // GET: api/episodes/random
+        [HttpGet("random")]
+        public async Task<ActionResult<Episode>> GetRandomEpisode()
         {
-            return _context.Episodes.Any(e => e.Id == id);
+            var count = await _context.Episodes.CountAsync();
+            if (count == 0)
+                return NotFound();
+            var random = new Random();
+            int skip = random.Next(count);
+            var episode = await _context.Episodes.Skip(skip).FirstOrDefaultAsync();
+            return episode!;
         }
     }
 }
