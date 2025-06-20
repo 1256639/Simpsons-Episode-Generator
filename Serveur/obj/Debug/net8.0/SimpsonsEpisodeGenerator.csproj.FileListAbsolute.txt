@@ -283,10 +283,10 @@ C:\Users\Pat\Desktop\Simpsons-Episode-Generator\Serveur\obj\Debug\net8.0\staticw
 C:\Users\Pat\Desktop\Simpsons-Episode-Generator\Serveur\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SimpsonsEpisodeGenerator.props
 C:\Users\Pat\Desktop\Simpsons-Episode-Generator\Serveur\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SimpsonsEpisodeGenerator.props
 C:\Users\Pat\Desktop\Simpsons-Episode-Generator\Serveur\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Pat\Desktop\Simpsons-Episode-Generator\Serveur\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Pat\Desktop\Simpsons-Episode-Generator\Serveur\obj\Debug\net8.0\Simpsons.BB31EFD9.Up2Date
 C:\Users\Pat\Desktop\Simpsons-Episode-Generator\Serveur\obj\Debug\net8.0\SimpsonsEpisodeGenerator.dll
 C:\Users\Pat\Desktop\Simpsons-Episode-Generator\Serveur\obj\Debug\net8.0\refint\SimpsonsEpisodeGenerator.dll
 C:\Users\Pat\Desktop\Simpsons-Episode-Generator\Serveur\obj\Debug\net8.0\SimpsonsEpisodeGenerator.pdb
 C:\Users\Pat\Desktop\Simpsons-Episode-Generator\Serveur\obj\Debug\net8.0\SimpsonsEpisodeGenerator.genruntimeconfig.cache
 C:\Users\Pat\Desktop\Simpsons-Episode-Generator\Serveur\obj\Debug\net8.0\ref\SimpsonsEpisodeGenerator.dll
+C:\Users\Pat\Desktop\Simpsons-Episode-Generator\Serveur\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

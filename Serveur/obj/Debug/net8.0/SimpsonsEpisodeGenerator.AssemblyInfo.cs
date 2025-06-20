@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimpsonsEpisodeGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5140f5dad1edaebb226c9a82945b9ee93c753611")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c4e1c53516d1f8c116f8163580608841289f446")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimpsonsEpisodeGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimpsonsEpisodeGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -16,6 +16,8 @@ public partial class SimpsonsEpisodeGeneratorContext : DbContext
     {
     }
 
+    public virtual DbSet<Changelog> Changelogs { get; set; }
+
     public virtual DbSet<Episode> Episodes { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -23,6 +25,13 @@ public partial class SimpsonsEpisodeGeneratorContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Changelog>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__changelo__3213E83F4C0DFC4D");
+
+            entity.Property(e => e.InstalledOn).HasDefaultValueSql("(getdate())");
+        });
+
         modelBuilder.Entity<Episode>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK_Id");
