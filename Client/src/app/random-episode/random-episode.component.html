@@ -1,0 +1,9 @@
+<button (click)="getRandomEpisode()">Click for a random episode</button>
+
+<div *ngIf="loading">Loading…</div>
+<div *ngIf="error">{{ error }}</div>
+<div *ngIf="episode" class="episode-card">
+  <h2>Season {{ episode.seasonNumber }}, Episode {{ episode.episodeNumber }}</h2>
+  <h3>{{ episode.title }}</h3>
+  <p>{{ episode.description }}</p>
+</div>

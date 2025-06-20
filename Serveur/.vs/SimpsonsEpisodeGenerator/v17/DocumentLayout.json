@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|c:\\users\\pat\\desktop\\simpsons-episode-generator\\serveur\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|c:\\users\\pat\\desktop\\simpsons-episode-generator\\serveur\\controllers\\episodescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|solutionrelative:controllers\\episodescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|c:\\users\\pat\\desktop\\simpsons-episode-generator\\serveur\\sql_scripts\\v1_1__insertiondonnees.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|solutionrelative:sql_scripts\\v1_1__insertiondonnees.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|c:\\users\\pat\\desktop\\simpsons-episode-generator\\serveur\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|c:\\users\\pat\\desktop\\simpsons-episode-generator\\serveur\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|c:\\users\\pat\\desktop\\simpsons-episode-generator\\serveur\\data\\simpsonsepisodegeneratorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|c:\\users\\pat\\desktop\\simpsons-episode-generator\\serveur\\controllers\\episodescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|solutionrelative:controllers\\episodescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|c:\\users\\pat\\desktop\\simpsons-episode-generator\\serveur\\sql_scripts\\v1_1__insertiondonnees.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|solutionrelative:sql_scripts\\v1_1__insertiondonnees.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +50,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "V1_1__InsertionDonnees.sql ",
+              "DocumentMoniker": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\Sql_Scripts\\V1_1__InsertionDonnees.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\V1_1__InsertionDonnees.sql",
+              "ToolTip": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\Sql_Scripts\\V1_1__InsertionDonnees.sql",
+              "RelativeToolTip": "Sql_Scripts\\V1_1__InsertionDonnees.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-18T17:58:38.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -50,25 +70,24 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-18T16:33:56.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T16:33:56.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "EpisodesController.cs",
               "DocumentMoniker": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\Controllers\\EpisodesController.cs",
               "RelativeDocumentMoniker": "Controllers\\EpisodesController.cs",
               "ToolTip": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\Controllers\\EpisodesController.cs",
               "RelativeToolTip": "Controllers\\EpisodesController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAIwDYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwDYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T15:51:45.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SimpsonsEpisodeGeneratorContext.cs",
               "DocumentMoniker": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\Data\\SimpsonsEpisodeGeneratorContext.cs",
               "RelativeDocumentMoniker": "Data\\SimpsonsEpisodeGeneratorContext.cs",
@@ -76,25 +95,24 @@
               "RelativeToolTip": "Data\\SimpsonsEpisodeGeneratorContext.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAiwB4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T15:48:13.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T15:48:13.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T15:47:51.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
