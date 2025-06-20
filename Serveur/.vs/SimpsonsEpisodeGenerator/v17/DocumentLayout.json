@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|c:\\users\\pat\\desktop\\simpsons-episode-generator\\serveur\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|c:\\users\\pat\\desktop\\simpsons-episode-generator\\serveur\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|c:\\users\\pat\\desktop\\simpsons-episode-generator\\serveur\\sql_scripts\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|solutionrelative:sql_scripts\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|c:\\users\\pat\\desktop\\simpsons-episode-generator\\serveur\\sql_scripts\\v1_1__insertiondonnees.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|solutionrelative:sql_scripts\\v1_1__insertiondonnees.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|c:\\users\\pat\\desktop\\simpsons-episode-generator\\serveur\\sql_scripts\\v1_1__insertiondonnees.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|solutionrelative:sql_scripts\\v1_1__insertiondonnees.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|c:\\users\\pat\\desktop\\simpsons-episode-generator\\serveur\\sql_scripts\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A4373A57-7ACB-4DC2-AE74-E08E8DFB56F6}|SimpsonsEpisodeGenerator.csproj|solutionrelative:sql_scripts\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,56 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-20T18:15:52.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T18:15:48.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InitialCreate.sql ",
-              "DocumentMoniker": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\Sql_Scripts\\InitialCreate.sql",
-              "RelativeDocumentMoniker": "Sql_Scripts\\InitialCreate.sql",
-              "ToolTip": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\Sql_Scripts\\InitialCreate.sql",
-              "RelativeToolTip": "Sql_Scripts\\InitialCreate.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-06-20T18:11:15.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "V1_1__InsertionDonnees.sql ",
-              "DocumentMoniker": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\Sql_Scripts\\V1_1__InsertionDonnees.sql",
-              "RelativeDocumentMoniker": "Sql_Scripts\\V1_1__InsertionDonnees.sql",
-              "ToolTip": "C:\\Users\\Pat\\Desktop\\Simpsons-Episode-Generator\\Serveur\\Sql_Scripts\\V1_1__InsertionDonnees.sql",
-              "RelativeToolTip": "Sql_Scripts\\V1_1__InsertionDonnees.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-06-20T17:19:02.418Z",
-              "EditorCaption": ""
             }
           ]
         },

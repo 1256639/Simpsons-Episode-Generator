@@ -27,7 +27,7 @@ public partial class SimpsonsEpisodeGeneratorContext : DbContext
     {
         modelBuilder.Entity<Changelog>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__changelo__3213E83F4C0DFC4D");
+            entity.HasKey(e => e.Id).HasName("PK__changelo__3213E83F784ECD38");
 
             entity.Property(e => e.InstalledOn).HasDefaultValueSql("(getdate())");
         });

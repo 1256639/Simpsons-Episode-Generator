@@ -17,20 +17,19 @@ A web application that allows users to generate a random episode of The Simpsons
    - Open `SimpsonsEpisodeGenerator.sln` in Visual Studio or your preferred IDE
 
 2. **Create the database**
+   - Use `(localdb)\MSSQLLocalDB` to avoid having to configure the connection string
    - Copy and paste the content of `InitialCreate.sql` into SQL Server Management Studio
    - Execute the script to create the database
 
-3. **Configure the connection string**
+3. **Connect the server to the database**
    - Open SQL Server Object Explorer
-   - Find and connect to the database you created
-   - In the connection screen, click on "Advanced" to get your connection string (it should start with `DataSource=`)
-   - Open `appsettings.json` and replace the connection string between the brackets after "SimpsonsEpisodeGenerator"
+   - Find and connect to the database you created (set Encrypt to False)
 
 4. **Run database migrations**
    - Open a terminal in the server project directory
    - Execute the following two commands:
      ```
-     evolve migrate sqlserver -c "Server=YOUR_CONNECTION_STRING_GOES_HERE" -s Episode --target-version 1.1
+     evolve migrate sqlserver -c "Server=(localdb)\MSSQLLocalDB;Initial Catalog=SimpsonsEpisodeGenerator;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=False" -s Episode --target-version 1.1
      
      dotnet ef dbcontext scaffold Name=SimpsonsEpisodeGenerator Microsoft.EntityFrameworkCore.SqlServer -o Models --context-dir Data --data-annotations --force
      ```
